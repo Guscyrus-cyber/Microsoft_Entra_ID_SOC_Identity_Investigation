@@ -88,13 +88,7 @@ Step 1 — Opening Microsoft Entra ID
 
 From the Azure portal, I open Microsoft Entra ID from the main services menu.
 
-This provides access to the tenant's identity and authentication management environment. (Image 1)\
-\
-\
-\
-\
-\
-\
+This provides access to the tenant's identity and authentication management environment. (Image 1)
 
 Step 2 — Opening Users
 
@@ -128,9 +122,6 @@ Review basic identity information such as:
 
 This information helps establish the identity being investigated. (Image 3)
 
-\
-\
-\
 Step 4 — Open Sign-in Logs
 
 I Select Sign-in logs from the user's left-side menu.
@@ -162,9 +153,6 @@ Error code: 0\
 IP: 108.28.79.19\
 Location: Lorton, Virginia, US (Image 4)
 
-\
-\
-\
 Step 5 — Open a Sign-in Event
 
 I Select one successful authentication event to open Activity Details: Sign-ins.
@@ -198,10 +186,7 @@ I Review the Basic info section, including:
 - Additional details: “MFA requirement satisfied by claim in the token”
 
 - Request ID / Correlation ID: identifiers we could use when correlating or troubleshooting this authentication event. (Image 5)\
-  \
-  \
-  \
-  \
+  
   Step 6 — Review Sign-in Location
 
 I Open the Location tab within the sign-in event.
@@ -232,13 +217,7 @@ Suspicious: another country → new IP address
 
 That difference could become an important indicator during account-compromise triage.\
 (Image 6)\
-\
-\
-\
-\
-\
-\
-\
+
 Step 7 — Review Device Information
 
 I Open the Device info tab.
@@ -258,17 +237,7 @@ I Review available information such as:
 - Join type
 
 Device information can help determine whether the authentication originated from a familiar or unusual endpoint. (Image 7)\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
+
 Step 8 — Review Authentication Details
 
 I Open the Authentication Details tab.
@@ -276,12 +245,7 @@ I Open the Authentication Details tab.
 I Review how the authentication requirement was satisfied and whether the authentication succeeded.
 
 This information helps determine whether credentials, MFA, or a previously established authentication session was used. (Image 8)\
-\
-\
-\
-\
-\
-\
+
 Step 9 — Review Conditional Access
 
 I Open the Conditional Access tab.
@@ -291,11 +255,7 @@ I Review the policy evaluated during the sign-in and its result.
 In this lab, Security defaults were evaluated successfully.
 
 Conditional Access information helps determine which identity security controls were applied during authentication. (Image 9)\
-\
-\
-\
-\
-\
+
 Step 10 — Review Audit Logs
 
 I Close the sign-in event and I select Audit logs from the user's menu.
@@ -312,14 +272,8 @@ Audit logs are used to investigate directory and administrative changes such as:
 
 - Authentication method changes
 
-In this lab, no audit events were found within the selected seven-day period. (Image 10)\
-\
-\
-\
-\
-\
-\
-\
+In this lab, no audit events were found within the selected seven-day period. (Image 10)
+
 Step 11 — Review Assigned Roles
 
 I Select Assigned roles from the user's menu.
@@ -330,13 +284,8 @@ Global Administrator
 
 role.
 
-Privileged accounts are especially important during SOC investigations because compromise of an administrative identity can result in significantly greater impact. (Image 11)\
-\
-\
-\
-\
-\
-\
+Privileged accounts are especially important during SOC investigations because compromise of an administrative identity can result in significantly greater impact. (Image 11)
+
 Step 12 — Review Authentication Methods
 
 I Select Authentication methods from the user's menu.
@@ -352,13 +301,7 @@ The lab also identified available incident-response actions such as:
 - Revoke sessions
 
 No changes were made during this introductory lab. (Image 12)\
-\
-\
-\
-\
-\
-\
-\
+
 Lab Completion
 
 The lab established a basic Microsoft Entra ID SOC investigation workflow:
